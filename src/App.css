@@ -1,5 +1,13 @@
 .app {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url("pawns.jpg");
+  /* background-position: center; */
+
+  background-repeat: no-repeat;
 }
 
 h1 {

@@ -1,5 +1,5 @@
 {
-  "main.css": "/drawing-numbers-from-1-to-6/static/css/main.8e586531.chunk.css",
+  "main.css": "/drawing-numbers-from-1-to-6/static/css/main.cd3f47c6.chunk.css",
   "main.js": "/drawing-numbers-from-1-to-6/static/js/main.8b4c6bd8.chunk.js",
   "main.js.map": "/drawing-numbers-from-1-to-6/static/js/main.8b4c6bd8.chunk.js.map",
   "runtime~main.js": "/drawing-numbers-from-1-to-6/static/js/runtime~main.31d0969d.js",
@@ -7,7 +7,8 @@
   "static/js/2.3ec218cf.chunk.js": "/drawing-numbers-from-1-to-6/static/js/2.3ec218cf.chunk.js",
   "static/js/2.3ec218cf.chunk.js.map": "/drawing-numbers-from-1-to-6/static/js/2.3ec218cf.chunk.js.map",
   "index.html": "/drawing-numbers-from-1-to-6/index.html",
-  "precache-manifest.faf237a3060ec5dfa24db65b2c054f83.js": "/drawing-numbers-from-1-to-6/precache-manifest.faf237a3060ec5dfa24db65b2c054f83.js",
+  "precache-manifest.89b46a8aaa3aeeaa740b734f69b6b8f3.js": "/drawing-numbers-from-1-to-6/precache-manifest.89b46a8aaa3aeeaa740b734f69b6b8f3.js",
   "service-worker.js": "/drawing-numbers-from-1-to-6/service-worker.js",
-  "static/css/main.8e586531.chunk.css.map": "/drawing-numbers-from-1-to-6/static/css/main.8e586531.chunk.css.map"
+  "static/css/main.cd3f47c6.chunk.css.map": "/drawing-numbers-from-1-to-6/static/css/main.cd3f47c6.chunk.css.map",
+  "static/media/App.css": "/drawing-numbers-from-1-to-6/static/media/pawns.660e8dfa.jpg"
 }

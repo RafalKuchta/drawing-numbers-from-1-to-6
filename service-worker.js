@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/drawing-numbers-from-1-to-6/precache-manifest.22df0e2294d332949e1f804a83c360f6.js"
+  "/drawing-numbers-from-1-to-6/precache-manifest.faf237a3060ec5dfa24db65b2c054f83.js"
 );
 
 workbox.clientsClaim();

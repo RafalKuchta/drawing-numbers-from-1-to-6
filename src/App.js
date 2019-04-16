@@ -39,16 +39,6 @@ class App extends Component {
 }
 
 
-// componentDidUpdate(){
-//   if(this.state.index === this.state.numbers.length){
-//     clearInterval(this.state.iID)
-//     this.setState({
-//       finish: true
-//     })
-//    }
-// }
-
-
   render() {
     if(this.state.index === this.state.numbers.length){
       clearInterval(this.state.iID)

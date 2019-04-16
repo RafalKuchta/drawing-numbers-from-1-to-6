@@ -2,14 +2,26 @@
   text-align: center;
 }
 
+h1 {
+  margin: 10px
+}
+
 span {
-  font-size: 30px;
+  font-size: 60px;
 }
 
-button {
+.btn {
   padding: 10px 30px;
-  margin: 30px
+  margin: 30px;
 }
 
 
+@media(max-width: 420px){
+  h1 {
+    font-size: 25px;
+  }
 
+  span {
+    font-size: 80px;
+  }
+}

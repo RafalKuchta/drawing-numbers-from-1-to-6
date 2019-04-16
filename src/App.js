@@ -57,6 +57,7 @@ class App extends Component {
       <div className="app">
         <>
         <h1>Losowanie liczby od 1 do 6</h1>
+        <hr/>
         <Draw number={this.state.number} numbers={this.state.numbers} draw={this.handleDraw} index={this.state.index} finish={this.state.finish}/>
         </>
       </div>

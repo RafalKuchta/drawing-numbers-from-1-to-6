@@ -18,8 +18,8 @@ if(index === numbers.length){
     
     return (
         <>
-        <button onClick={props.draw}>Losuj</button><br/>
-
+        <button type="button" class="btn btn-success" onClick={props.draw}>Losuj</button><br/>
+   
         <span>
         {finish ? numbers[numbers.length-1] : numbers[index]}
                 

@@ -1,25 +1,64 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Draw from './Draw'
 
 class App extends Component {
+
+  state = {
+    numbers: [],
+    number: "---",
+    index: -1,
+    iID: 1,
+    finish: false
+  }
+
+
+  handleDraw = () => {
+
+    let numbers = []
+    for (let i = 0; i < 50; i++){
+
+      let number = Math.floor(Math.random() * 6 + 1)
+      numbers.push(number)
+         
+      this.setState({
+        number,
+        numbers,
+        index: -1
+      })
+  }
+    
+
+  let iID = setInterval(()=>{
+    this.setState({
+        index: this.state.index + 1,
+        iID
+    })
+  }, 50)
+
+}
+
+
+// componentDidUpdate(){
+//   if(this.state.index === this.state.numbers.length){
+//     clearInterval(this.state.iID)
+//     this.setState({
+//       finish: true
+//     })
+//    }
+// }
+
+
   render() {
+    if(this.state.index === this.state.numbers.length){
+      clearInterval(this.state.iID)
+     }
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="app">
+        <>
+        <h1>Losowanie liczby od 1 do 6</h1>
+        <Draw number={this.state.number} numbers={this.state.numbers} draw={this.handleDraw} index={this.state.index} finish={this.state.finish}/>
+        </>
       </div>
     );
   }
